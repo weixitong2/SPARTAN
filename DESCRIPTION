@@ -1,0 +1,27 @@
+Package: SPARTAN
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: c(person('Cheng', 'Meng',role = c('aut','cre'),email = "chengmeng@ruc.edu.cn"),
+          person('Bowen', 'Yang',role = 'aut'), 
+          person('Xin', 'Wang',role = 'aut'),
+          person('Xitong', 'Wei',role = 'aut'))
+Maintainer: Cheng Meng <chengmeng@ruc.edu.cn>
+Description: This package is used to sample with optimal transport. 
+            It obtain many ways to solve OT include EMD, PPMM, Random project. 
+            We are trying to add more methods to solve it.
+            When you use this package, you need library rngWELL, nloptr, MaxPro, randtoolbox in advance.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+  rngWELL,
+  randtoolbox,
+  MaxPro,
+  nloptr,
+  Rfast,
+  data.table,
+  Rfast,
+  data.table,
+  randtoolbox,
+  transport
